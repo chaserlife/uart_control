@@ -1,0 +1,14 @@
+tb.rst_n = 1'b1;
+$display("00000000");
+tb.rst_n = 1'b0;
+#1ms;
+$display("55555555");
+tb.rst_n = 1'b1;
+$display("11111111");
+#100; tx_pc(8'h88);
+$display("22222222");
+#100; tx_pc(8'h77);
+$display("33333333");
+#100; tx_pc(8'h66);
+$display("44444444");
+$finish;

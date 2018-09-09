@@ -1,0 +1,7 @@
+../tb.v
++incdir+../../design/rtl
++incdir+../../design/bhv
+../../design/rtl/uart_top.v
+../../design/rtl/uart_rx.v
+../../design/rtl/uart_tx.v
+../../design/rtl/baud_sel.v
